@@ -1,7 +1,9 @@
+import os
+from dotenv import load_dotenv
 import google.generativeai as genai
 from typing import List, Dict
 
-GOOGLE_API_KEY = "AIzaSyAAXXU7biAZspBv6J-kIW5ZZ5E2koau4pE"
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
