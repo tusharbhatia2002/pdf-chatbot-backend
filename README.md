@@ -48,3 +48,9 @@ uvicorn main:app --reload
 - **POST /extract-key-points/**: Extract key points from a specified PDF.
 - **GET /pdf-files/**: Retrieve a list of uploaded PDFs.
 - **DELETE /delete-pdf/{filename}**: Delete a specified PDF.
+
+## Key Points
+1. **API Efficiency**: The backend APIs are designed for optimal performance and clear responses.
+2. **Flow and Architecture**: The backend architecture is modular, separating concerns for better maintainability.
+3. **Response Handling**: The chatbot's responses are structured to provide relevant information based on user queries.
+4. **Code Quality**: The code is clean, well-structured, and follows best practices for readability and maintainability.
